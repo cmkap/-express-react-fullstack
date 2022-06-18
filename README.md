@@ -1,4 +1,4 @@
-### Express-React project
+### Express-React Project
 
 ## Introduction
 This repository contains a simple Full Stack Express / React application. It is intended to demonstrate as wide an array of features as possible while still keeping the app simple and easy to understand.
