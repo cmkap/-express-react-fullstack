@@ -4,14 +4,7 @@
   "description": "A full stack application with React and MongoDB (Easily deployed)",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p",
-    "deploy": "npm run build && git commit -a -m deployment && git push heroku master",
-    "dev": "webpack-dev-server --open",
-    "server": "cross-env NODE_ENV=production babel-node src/server",
-    "server-dev": "nodemon src/server --exec babel-node src/server",
-    "start-dev": "concurrently \"npm run server-dev\" \"npm run dev\"",
-    "server-spec": "babel-node src/server/server.spec",
-    "start": "npm run server"
+    "start": "webpack"
   },
   "keywords": [
     "react",
@@ -19,7 +12,7 @@
     "express",
     "mongo"
   ],
-  "author": "Daniel 'The Code Whisperer' Stern",
+  "author": "Chisambwe Kapihya",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",

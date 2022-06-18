@@ -1,0 +1,12 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets":{
+               "node":"current" 
+            }
+        }],
+        "@babel/preset-react"
+    ]
+}
+
+//jason file that babel automatically checks for to determine how it should run

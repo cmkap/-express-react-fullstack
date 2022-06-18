@@ -7,3 +7,10 @@ This repository contains a simple Full Stack Express / React application. It is 
  
  This application consists of Front End component (located in the `app` directory) that is built with Redux and React. It also has a Back End component (located in the `server` directory) that uses Express to manage
 
+ 
+
+
+downgrade node using
+nvm install 16.13.0
+
+npm install legacy perr deps
