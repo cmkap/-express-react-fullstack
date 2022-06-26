@@ -9,8 +9,12 @@ export const Main = () => (
     <Router history={history}>
         <Provider store={store} >
             <div>
-                {/* Dashboard Goes Here */}
-                <ConnectedDashboard />
+                {/* <ConnectedDashboard /> */}
+                <Route 
+                    exact 
+                    path="/dashboard" 
+                    render={()=>(<ConnectedDashboard />)}
+                />
             </div> 
         </Provider>
     </Router>
