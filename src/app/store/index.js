@@ -13,7 +13,16 @@ export const store = createStore (
         tasks(tasks = defaultState.tasks, action) {
             switch(action.type) {
                 case mutations.CREATE_TASK:
-                    console.log(action)
+                    // console.log(action)
+                    return [...tasks, {
+                       id:action.taskID,
+                       name:"New Task",
+                       group:action.groupID,
+                       owner:action.ownerID,
+                       isComplete: false
+
+
+                    }]
 
             }
             return tasks;
