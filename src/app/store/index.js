@@ -20,8 +20,6 @@ export const store = createStore (
                        group:action.groupID,
                        owner:action.ownerID,
                        isComplete: false
-
-
                     }]
 
             }
