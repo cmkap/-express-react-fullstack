@@ -15,7 +15,7 @@ const TaskDetail = ({
         </div>    
        
         <div>
-            <button>Complete / Reopen Task</button>
+            <button>{isComplete ? "Reopen Task" : "Complete"}</button>
         </div>
 
         <div>
@@ -46,4 +46,15 @@ const mapStateToProps = (state, ownProps) => {
         isComplete:task.isComplete
     }
 }
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+    const id = ownProps.match.params.id;
+
+    return {
+        setTaskCompletion(id, isComplete) {
+            
+        }
+    }
+}
+
 export const ConnectedTaskDetail = connect(mapStateToProps)(TaskDetail);
