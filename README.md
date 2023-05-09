@@ -1,16 +1,34 @@
-### Express-React Project
+# Express-React Project
 
-## Introduction
-This repository contains a simple Full Stack Express / React application. It is intended to demonstrate as wide an array of features as possible while still keeping the app simple and easy to understand.
- 
+This repository contains a simple full stack Express / React application. It is intended to demonstrate a wide array of features while still keeping the app simple and easy to understand.
 
- 
- This application consists of Front End component (located in the `app` directory) that is built with Redux and React. It also has a Back End component (located in the `server` directory) that uses Express to manage
+## Technologies Used
 
- 
+- Front End: React, Redux
+- Back End: Express
 
+## Getting Started
 
-downgrade node using
-nvm install 16.13.0
+### Prerequisites
 
-npm install legacy perr deps
+- Node.js version 16.13.0 or lower
+- NPM version 8.1.0 or lower
+
+### Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/express-react-project.git`
+2. Change directory to the project root: `cd express-react-project`
+3. Install server dependencies: `npm install`
+4. Change directory to the client folder: `cd client`
+5. Install client dependencies: `npm install`
+6. Return to the project root: `cd ..`
+
+### Usage
+
+1. Start the server: `npm run server`
+2. In another terminal window, start the client: `npm run client`
+3. Open a web browser and navigate to `http://localhost:3000`
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
